@@ -1,8 +1,5 @@
-/**
- *  Displays a message that prints in STDOUT.
- */
-const displayMessage = (msg) => {
-	console.log(msg);
-};
+function displayMessage(data) {
+  console.log(data);
+}
 
 module.exports = displayMessage;
